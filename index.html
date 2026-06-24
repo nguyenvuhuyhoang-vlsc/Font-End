@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoc HTML</title>
+    <style>
+        #text {
+            font-size: 30px;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <p id="text">Hom nay la mot ngay dep troi</p>
+    <script>
+        const p = document.getElementById('text');
+        p.onclick = function(){
+            this.innerText = 'Ban da click vao noi dung nay';
+        }
+    </script>
+</body>
+</html>
