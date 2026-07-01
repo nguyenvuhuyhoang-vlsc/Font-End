@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th>Registration Form</th>
+            </tr>
+        <tr>
+            <td><label for="First Name">First Name :</label></td>
+            <td><input type="text" id="First Name" placeholder="First Name"></td>
+        </tr>
+        <tr>
+            <td><label for="Last Name">Last Name :</label></td>
+            <td><input type="text" id="Last Name" placeholder="Last Name"></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email :</label></td>
+            <td><input type="email" id="Email" placeholder="Enter Email Address"></td>
+        </tr>
+        <tr>
+            <td><label for="Password">Password :</label></td>
+            <td><input type="password" id="Password"></td>
+        </tr>
+
+        <tr>
+            <td valign="top"><label>Gender:</label></td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="age">Age :</label></td>
+            <td><input type="number" id="age"></td>
+        </tr>
+
+        <tr>
+            <td valign="top"><label>Preferences :</label></td>
+            <td>
+                <input type="checkbox" id="acrylic" name="pref" value="acrylic">
+                <label for="acrylic">Acrylic Painting</label><br>
+                <input type="checkbox" id="oil" name="pref" value="oil">
+                <label for="oil">Oil Painting</label><br>
+                <input type="checkbox" id="watercolor" name="pref" value="watercolor">
+                <label for="watercolor">Water Color Painting</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="occupation">Select Occupation</label></td>
+            <td>
+                <select id="occupation">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="engineer">Engineer</option>
+                </select>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td valign="top"><label for="bio">Bio</label></td>
+            <td>
+                <textarea id="bio" rows="4" cols="30" placeholder="Share few lines about yourself..."></textarea>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td></td>
+            <td>
+                <input type="reset" value="RESET">
+                <input type="submit" value="SUBMIT">
+            </td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>
